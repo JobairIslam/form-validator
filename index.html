@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" type="image/jpeg" href="/img/abcd.png" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Form validator</title>
+</head>
+
+<body>
+  <div class="container">
+    <form action="" class="form" id="form">
+      <h2>Register with us</h2>
+      <div class="form-control">
+        <label for="username">User Name</label>
+        <input type="text" id="username" placeholder="Enter user name">
+        <small>error mesg</small>
+      </div>
+      <div class="form-control">
+        <label for="email">Mail address</label>
+        <input type="text" id="email" placeholder="Enter your mail">
+        <small>error mesg</small>
+      </div>
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+        <small>error mesg</small>
+      </div>
+      <div class="form-control">
+        <label for="password2">Conform Password</label>
+        <input type="password" id="password2" placeholder="Enter password again">
+        <small>error mesg</small>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
